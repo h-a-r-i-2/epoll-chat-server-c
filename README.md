@@ -45,16 +45,16 @@ Client connected FD=6
 Client connected FD=7
 Client 7: Hi
 Client 6: Hi, How are you?
-Client 7: Yes, I'm fine... How are you?
+Client 7: I'm Fine...
 ^C
 Shutting down server gracefully...
 
 2. Client FD=6:
 Hi
 Hi, How are you?
-Yes, I'm fine... How are you?
+I'm Fine...
 
 3. Client FD=7:
 Hi
 Hi, How are you?
-Yes, I'm fine... How are you?
+I'm Fine...
