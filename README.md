@@ -40,6 +40,7 @@ nc localhost 9090
 ## Sample Output
 
 1. Server Side:
+```bash
 Chat server started on port 9090
 Client connected FD=6
 Client connected FD=7
@@ -48,13 +49,18 @@ Client 6: Hi, How are you?
 Client 7: I'm Fine...
 ^C
 Shutting down server gracefully...
+```
 
 2. Client FD=6:
+```bash
 Hi
 Hi, How are you?
 I'm Fine...
+```
 
 3. Client FD=7:
+```bash
 Hi
 Hi, How are you?
 I'm Fine...
+```
